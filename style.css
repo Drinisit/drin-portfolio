@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: nos;
+}
+@font-face{
+    src: url(font/Poppins/Poppins-Light.ttf);
+    font-family: nos;
 }
 nav{
     height: 80px;
