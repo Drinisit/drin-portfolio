@@ -8,6 +8,10 @@
     font-family: nos;
 }
 nav{
-    height: 80px;
+    height: 40px;
     background-color: black;
+}
+a{
+    margin: 0.5rem;
+    text-align: center;
 }
