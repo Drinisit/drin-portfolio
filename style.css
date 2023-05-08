@@ -8,6 +8,7 @@
     font-family: nos;
 }
 nav{
+    text-align: center;
     height: 40px;
     background-color: black;
 }
@@ -15,40 +16,34 @@ a{
     margin: 0.5rem;
     text-align: center;
 }
-.section{
-    
-}
 .section-01{
+
     position: relative;
     background-color: aqua;
 }
-.section-01 .text-box .greet{
-    font-size: 2rem;
+.text-box{
+    left: 5%;
+    width: 50%;
+    position:absolute;
+    background-color: bisque;
 }
-.section-01 .text-box .myName{
-    font-size: 4rem;
+.greet ,.myName{
     font-weight: bold;
 }
-.section-01 .text-box .job{
-    font-size: 1rem;
+.greet{
+    font-size: 2em;
 }
-.text-box{
-    padding-left: 3rem;
-    padding-top: 2.5rem;
-    width: 20rem;
-    
-    background-color: firebrick;
+.myName{
+    font-size: 4em;
 }
-.image01{
-    top: 2.9rem;
-    left: 23rem;
-    z-index: 999;
-    height: 10rem;
-    position: absolute;
+.container{
+    top: 0;
+    right: 0;
+    background-color: cadetblue;
+    position:absolute;
+    width: 50%;
 }
-.bglines{
-    top: 4rem;
-    left: 16rem;
-    height: 5rem;
-    position: absolute;
+.section-01 .container .image01{
+    width: 50%;
 }
+
