@@ -17,15 +17,20 @@ a{
     text-align: center;
 }
 .section-01{
-
+    height: 0;
+    padding-bottom: 40%;
     position: relative;
-    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    background-image: url(./assets/backgrounds/background01.png);
 }
 .text-box{
+    top: 15%;
     left: 5%;
     width: 50%;
     position:absolute;
-    background-color: bisque;
+    line-height: 3rem;
 }
 .greet ,.myName{
     font-weight: bold;
@@ -39,9 +44,8 @@ a{
 .container{
     top: 0;
     right: 0;
-    background-color: cadetblue;
-    position:absolute;
     width: 50%;
+    position:absolute;
 }
 .section-01 .container .image01{
     width: 50%;
