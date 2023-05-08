@@ -16,9 +16,10 @@ a{
     text-align: center;
 }
 .section{
-    display: block;
+    
 }
 .section-01{
+    position: relative;
     background-color: aqua;
 }
 .section-01 .text-box .greet{
@@ -30,4 +31,15 @@ a{
 }
 .section-01 .text-box .job{
     font-size: 1rem;
+}
+.text-box{
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    width: 20rem;
+    
+    background-color: firebrick;
+}
+.image01{
+    height: 10rem;
+    position: absolute;
 }
