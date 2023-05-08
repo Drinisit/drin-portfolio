@@ -40,6 +40,15 @@ a{
     background-color: firebrick;
 }
 .image01{
+    top: 2.9rem;
+    left: 23rem;
+    z-index: 999;
     height: 10rem;
+    position: absolute;
+}
+.bglines{
+    top: 4rem;
+    left: 16rem;
+    height: 5rem;
     position: absolute;
 }
