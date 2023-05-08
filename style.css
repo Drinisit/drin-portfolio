@@ -41,6 +41,11 @@ a{
 .myName{
     font-size: 4em;
 }
+.btnResume{
+    padding: 5px 15px;
+    border: none;
+    background-color: #fa9f1f;
+}
 .container{
     top: 0;
     right: 0;
