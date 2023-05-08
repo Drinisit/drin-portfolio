@@ -27,7 +27,7 @@ a{
 }
 .text-box{
     top: 15%;
-    left: 5%;
+    left: 8%;
     width: 50%;
     position:absolute;
     line-height: 3rem;
@@ -58,7 +58,7 @@ a{
 @media screen and (max-width: 480px) {
     .text-box{
         top: 15%;
-        left: 5%;
+        left: 8%;
         width: 50%;
         position:absolute;
         line-height: 1.5rem;
