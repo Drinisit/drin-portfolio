@@ -55,4 +55,27 @@ a{
 .section-01 .container .image01{
     width: 50%;
 }
-
+@media screen and (max-width: 480px) {
+    .text-box{
+        top: 15%;
+        left: 5%;
+        width: 50%;
+        position:absolute;
+        line-height: 1.5rem;
+    }
+    .greet ,.myName{
+        font-weight: bold;
+    }
+    .greet{
+        font-size: 1rem;
+    }
+    .myName{
+        font-size: 2rem;
+    }
+    .btnResume{
+        font-size: 0.5rem;
+        padding: 5px 15px;
+        border: none;
+        background-color: #fa9f1f;
+    }
+  }
