@@ -16,7 +16,22 @@ a{
     padding: 7rem 0;
     text-align: center;
 }
-.section-01{
+
+.section{
    height: min-content;
+   width: 80%;
+   margin: auto;
    background-color: antiquewhite;
+}
+.text-box{
+    display: inline-block;
+    border: 2px solid green;
+}
+.text-box>.intro{
+    width: 40%;
+    display: block!important;
+}
+.container{
+    display: inline-block;
+    border: 2px solid blue;
 }
