@@ -16,22 +16,20 @@ a{
     padding: 7rem 0;
     text-align: center;
 }
-
+/*---------Navbar-------------*/
 .section{
-   height: min-content;
-   width: 80%;
-   margin: auto;
    background-color: antiquewhite;
 }
+div{
+    display: inline-block;
+}
+.content{
+    margin-left: 10%;
+    background-color: cornflowerblue;
+}
 .text-box{
-    display: inline-block;
-    border: 2px solid green;
+    border: 1px solid black;
 }
-.text-box>.intro{
-    width: 40%;
-    display: block!important;
-}
-.container{
-    display: inline-block;
-    border: 2px solid blue;
+.image-container{
+    border: 1px solid green;
 }
