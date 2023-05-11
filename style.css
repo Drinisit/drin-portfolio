@@ -18,15 +18,17 @@ a{
 }
 /*---------Navbar-------------*/
 .section{
-   background-color: antiquewhite;
+    /*css for all section on the website*/
 }
-.content{
-    margin: auto;
+.section-01{
+    /*this section is for changing the background image per section*/
     background-color: cornflowerblue;
 }
-.text-box{
-    border: 1px solid black;
+.section-02{
+    /*this section is for changing the background image per section*/
+    background-color: darkslategrey;
 }
-.image-container{
-    border: 1px solid green;
+.content{
+    width: 80%;
+    margin: auto;
 }
