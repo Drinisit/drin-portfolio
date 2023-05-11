@@ -20,11 +20,8 @@ a{
 .section{
    background-color: antiquewhite;
 }
-div{
-    display: inline-block;
-}
 .content{
-    margin-left: 10%;
+    margin: auto;
     background-color: cornflowerblue;
 }
 .text-box{
