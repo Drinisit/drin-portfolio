@@ -19,16 +19,36 @@ a{
 /*---------Navbar-------------*/
 .section{
     /*css for all section on the website*/
+    border: 1px solid green;
 }
 .section-01{
     /*this section is for changing the background image per section*/
-    background-color: cornflowerblue;
+    position: relative;
 }
-.section-02{
-    /*this section is for changing the background image per section*/
-    background-color: darkslategrey;
+.card{
+    width: 45%;
 }
-.content{
-    width: 80%;
-    margin: auto;
+.card-greet{
+    font-size: 3rem;
+}
+.card-name{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.card-greet,.card-name{
+    line-height: 3rem;
+}
+.btnResume{
+    border: none;
+    padding: 10px 15px;
+    background-color: #fa9f1f;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
 }
