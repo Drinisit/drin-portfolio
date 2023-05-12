@@ -8,13 +8,15 @@
     font-family: nos;
 }
 nav{
-    text-align: center;
-    background-color: black;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
 }
-a{
-    margin: 7rem 0.5rem;
-    padding: 7rem 0;
-    text-align: center;
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
 }
 /*---------Navbar-------------*/
 .section{
