@@ -8,29 +8,19 @@
     font-family: nos;
 }
 nav{
-    padding: 10px;
     display: flex;
+    padding: 1rem 3rem;
     flex-wrap: wrap;
-    gap: 10px;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
-nav ul{
-    justify-content: flex-end;
+.logo{
+    width: 3rem;
 }
-.logo>.nav-logo{
-    width: 40px;
-}
-ul{
-    display: flex;
-}
-li{
-    margin-top: 0.6rem;
+nav ul li{
     list-style: none;
-}
-li a{
-    color: #000;
-    margin: 10px;
-    text-decoration: none;
+    display: inline-block;
+    margin: 0 1rem;
 }
 /*---------Navbar-------------*/
 .section{
