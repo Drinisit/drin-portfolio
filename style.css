@@ -22,17 +22,40 @@ nav ul li{
     display: inline-block;
     margin: 0 1rem;
 }
+nav ul li a{
+    color: #000;
+    text-decoration: none; 
+}
+nav ul li a:hover{
+    color:#fa9f1f;
+    transition: .2s;
+}
+.active{
+    border: 1px transparent solid;
+    background: #fa9f1f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+.active:hover{
+    background-color: #fff;
+    border: 1px #fa9f1f solid;
+    color: #fa9f1f;
+    transition: .2s;
+    transform: scale(1);
+}
 /*---------Navbar-------------*/
 .section{
     /*css for all section on the website*/
+    display: flex;
+    justify-content: space-around;
     border: 1px solid green;
 }
 .section-01{
     /*this section is for changing the background image per section*/
-    position: relative;
 }
 .card{
-    width: 45%;
+    width: 40%;
 }
 .card-greet{
     font-size: 3rem;
@@ -49,12 +72,13 @@ nav ul li{
     padding: 10px 15px;
     background-color: #fa9f1f;
 }
-.clear{
-    clear: both;
+.tile-image{
+    width: 100%;
+    height: auto;
 }
-.left{
-    float: left;
+.section-02 .left{
+    order: 1;
 }
-.right{
-    float: right;
+.card-intro p{
+    text-align: justify;
 }
