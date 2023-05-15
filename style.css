@@ -48,14 +48,15 @@ nav ul li a:hover{
 .section{
     /*css for all section on the website*/
     display: flex;
-    justify-content: space-around;
-    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
 }
 .section-01{
     /*this section is for changing the background image per section*/
 }
 .card{
-    width: 40%;
+    flex:1;
+    max-width: 40%;
 }
 .card-greet{
     font-size: 3rem;
@@ -81,4 +82,11 @@ nav ul li a:hover{
 }
 .card-intro p{
     text-align: justify;
+}
+
+@media (max-width: 1250px) {
+    .section{
+        flex-direction: column;
+        height: auto;
+    }
 }
