@@ -20,6 +20,14 @@ nav{
     align-items: center;
 }
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
 .header{
     padding: 1.5rem 10%;
     display: flex;
@@ -58,6 +66,16 @@ nav{
     transition: .2s;
 }
 
+.hero h3{
+    font-size: 2rem;
+}
+.hero h1{
+    font-size: 3.5rem;
+    line-height: 3rem;
+}
+.hero h4{
+    font-weight: normal;
+}
 
 
 
@@ -69,54 +87,20 @@ footer{
 }
 
 /*---------Navbar-------------*/
-section{
-    /*css for all section on the website*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.section{
-    /*this section is for changing the background image per section*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section-01{
-    background-image: url(/assets/backgrounds/background01.png);
-}
-.card-greet{
-    font-size: 3rem;
-}
-.card-name{
-    font-size: 4rem;
-    font-weight: bold;
-}
-.card-greet,.card-name{
-    line-height: 3rem;
-}
-.btnResume{
-    border: none;
-    padding: 10px 15px;
-    background-color: #fa9f1f;
-}
-.tile-image img{
-    width: 35vw;
-    height: auto;
-}
-.section-02 .left{
-    order: 1;
-}
-.card-intro p{
-    text-align: justify;
-}
-.footer{
-    padding: 1rem;
-    
-}
+
 
 
 @media (max-width: 1250px) {
+    .section{
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media (max-width: 680px) {
+    .navbar{
+        display: none;
+    }
     .section{
         flex-direction: column;
         height: auto;
