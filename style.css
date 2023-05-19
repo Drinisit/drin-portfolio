@@ -2,54 +2,72 @@
     margin: 0;
     padding: 0;
     font-family: nos;
+    box-sizing: border-box;
 }
 @font-face{
     src: url(font/Poppins/Poppins-Light.ttf);
     font-family: nos;
 }
+
+:root{
+    --black:#000;
+    --mustard:#fa9f1f;
+}
+
 nav{
     display: flex;
-    padding: 1rem 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    padding: 1.5rem 10%;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    cursor: default;
+}
+.navbar{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid var(--mustard);
+    transition: .2s;
+}
+
+.btncv{
+    border: 1px solid var(--mustard);
+    background-color: transparent;
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+}
+.btncv:hover{
+    background-color: var(--mustard);
+    transition: .2s;
+}
+
+
+
+
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fa9f1f;
 }
-.logo{
-    width: 3rem;
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 1rem;
-}
-nav ul li a{
-    color: #000;
-    text-decoration: none; 
-}
-nav ul li a:hover{
-    color:#fa9f1f;
-    transition: .2s;
-}
-.active{
-    border: 1px transparent solid;
-    background: #fa9f1f;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #fff;
-}
-.active:hover{
-    background-color: #fff;
-    border: 1px #fa9f1f solid;
-    color: #fa9f1f;
-    transition: .2s;
-    transform: scale(1);
-}
+
 /*---------Navbar-------------*/
 section{
     /*css for all section on the website*/
@@ -63,6 +81,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.section-01{
+    background-image: url(/assets/backgrounds/background01.png);
 }
 .card-greet{
     font-size: 3rem;
