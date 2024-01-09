@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drin-portfolio/static/css/main.e1cdd776.css",
+    "main.js": "/drin-portfolio/static/js/main.44376edd.js",
+    "index.html": "/drin-portfolio/index.html",
+    "main.e1cdd776.css.map": "/drin-portfolio/static/css/main.e1cdd776.css.map",
+    "main.44376edd.js.map": "/drin-portfolio/static/js/main.44376edd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1cdd776.css",
+    "static/js/main.44376edd.js"
+  ]
+}
