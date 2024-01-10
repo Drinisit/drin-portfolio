@@ -21,7 +21,7 @@ const Hero = () => {
             <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faLinkedin}/>
           </div>
         </div>
-        <div>
+        <div className='hidden sm:block '>
         <img className='p-3 items-center mx-auto' src={Me} alt="" />
         </div>
       </div>
