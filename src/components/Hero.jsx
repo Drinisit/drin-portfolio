@@ -5,21 +5,28 @@ import {faFacebook, faInstagram,faGithub,faLinkedin} from '@fortawesome/free-bra
 
 const Hero = () => {
   return (
-    <div className='max-w-[1240px] mx-auto items-center p-4'>
-      <div>
-        <p className='uppercase'>Mama mo build</p>
-        <h1 className='text-3xl font-bold '>Hi, I'm Aldrin Isit</h1>
-        <p>An aspiring Web Developer who specialized on Front-End base in Pangasinan, Philippines</p>
-        <button className='bg-amber-500 border border-amber-500 p-2 my-2'>About me</button> 
-        <button className='border border-amber-500 p-2 mx-2'>Resume</button>
+    
+    <div className='w-full bg-amber-400 py-11 px-4'>
+      <div className='max-w-[1240px] mx-auto grid sm:grid-cols-2'>
         <div>
-          <FontAwesomeIcon className='text-xl mt-1' icon={faFacebook}/>
-          <FontAwesomeIcon className='text-xl mt-1 mx-3' icon={faInstagram}/>
-          <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faGithub}/>
-          <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faLinkedin}/>
+          <p className='uppercase'>Mama mo build</p>
+          <h1 className='text-3xl font-bold '>Hi, I'm Aldrin Isit</h1>
+          <p>An aspiring Web Developer who specialized on Front-End base in Pangasinan, Philippines</p>
+          <button className='bg-amber-500 border border-amber-500 font-medium p-2 my-2'>About me</button> 
+          <button className='border border-amber-500 font-medium py-2 px-4 mx-2 hover:bg-white'>Resume</button>
+          <div>
+            <FontAwesomeIcon className='text-xl mt-1' icon={faFacebook}/>
+            <FontAwesomeIcon className='text-xl mt-1 mx-3' icon={faInstagram}/>
+            <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faGithub}/>
+            <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faLinkedin}/>
+          </div>
+        </div>
+        <div>
+        <img className='p-3 items-center mx-auto' src={Me} alt="" />
         </div>
       </div>
-        <img src={Me} alt="" />
+      
+        
     </div>
   )
 }
