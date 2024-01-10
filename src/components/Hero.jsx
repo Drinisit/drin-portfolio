@@ -8,10 +8,10 @@ const Hero = () => {
     
     <div className='w-full bg-amber-400 py-11 px-4'>
       <div className='max-w-[1240px] mx-auto grid sm:grid-cols-2'>
-        <div>
+        <div className='my-auto'>
           <p className='uppercase'>Mama mo build</p>
           <h1 className='text-3xl font-bold '>Hi, I'm Aldrin Isit</h1>
-          <p>An aspiring Web Developer who specialized on Front-End base in Pangasinan, Philippines</p>
+          <p>An aspiring Web Developer who specialized on Front-End base in Pangasinan, Philippines.</p>
           <button className='bg-amber-500 border border-amber-500 font-medium p-2 my-2'>About me</button> 
           <button className='border border-amber-500 font-medium py-2 px-4 mx-2 hover:bg-white'>Resume</button>
           <div>
