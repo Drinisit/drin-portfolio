@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/drin-portfolio/static/css/main.15bead21.css",
-    "main.js": "/drin-portfolio/static/js/main.1ae340af.js",
+    "main.css": "/drin-portfolio/static/css/main.6cfc7f2a.css",
+    "main.js": "/drin-portfolio/static/js/main.bb4572ab.js",
     "static/media/drin-img.png": "/drin-portfolio/static/media/drin-img.a499b7ed297956922371.png",
     "index.html": "/drin-portfolio/index.html",
-    "main.15bead21.css.map": "/drin-portfolio/static/css/main.15bead21.css.map",
-    "main.1ae340af.js.map": "/drin-portfolio/static/js/main.1ae340af.js.map"
+    "main.6cfc7f2a.css.map": "/drin-portfolio/static/css/main.6cfc7f2a.css.map",
+    "main.bb4572ab.js.map": "/drin-portfolio/static/js/main.bb4572ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.15bead21.css",
-    "static/js/main.1ae340af.js"
+    "static/css/main.6cfc7f2a.css",
+    "static/js/main.bb4572ab.js"
   ]
 }
