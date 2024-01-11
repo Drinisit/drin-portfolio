@@ -6,47 +6,39 @@ import { SiTailwindcss } from "react-icons/si"
 const Skill = () => {
   return (
     <div className='w-full bg-gray-200 py-16 px-6'>
-            <div className='max-w-[1240px] mx-auto'>
-            <h1 className='text-2xl font-bold uppercase text-center pb-3'>Skills</h1>
-                <div className='place-items-center grid xs:grid-cols-2 md:grid-cols-3'>
-                    <div className='border-2 border-amber-500 rounded-md py-6 px-12 m-1'>
-                        <FaHtml5 className='text-7xl' />
-                        <p className='font-bold uppercase text-center'>Html</p>
-                    
-                    </div>
-                    <div className='border-2 border-amber-500 rounded-md py-6 px-12 m-1'>
-                        <FaCss3Alt className='text-7xl' />
-                        <p className='font-bold uppercase text-center'>Css</p>
-                        
-                    </div>
-                    <div className='border-2 border-amber-500 rounded-md py-6 px-10 m-1'>
-                        <DiJavascript className='text-7xl' />
-                        <p className='font-bold uppercase text-center'>Javascript</p>
-                    
-                    </div>
-                    <div className='border-2 border-amber-500 rounded-md py-6 px-12 m-1'>
-                        <FaReact className='text-7xl' />
-                        <p className='font-bold uppercase text-center'>React</p>
-                    
-                    </div>
-                    <div className='border-2 border-amber-500 rounded-md py-6 px-12 m-1'>
-                        <SiTailwindcss className='text-7xl' />
-                        <p className='font-bold uppercase text-center'>Tailwind</p>
-                        
-                    </div>
-                    <div className='border-2 border-amber-500 rounded-md py-6 px-12 m-1'>
-                        <FaGithub className='text-7xl' />
-                        <p className='font-bold uppercase text-center'>Github</p>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
+ 
+                <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md p-12'>
+                    <FaHtml5 className='w-20 h-20 mx-auto' />
+                    <p className='text-xl font-medium text-center uppercase mt-3'>Html</p>
+                </div> 
 
-                    </div>
-            </div>
-       
+                <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md p-12'>
+                    <FaCss3Alt className='w-20 h-20 mx-auto' />
+                    <p className='text-xl font-medium text-center uppercase mt-3'>Css</p>
+                </div> 
+                
+                <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md p-12'>
+                    <DiJavascript className='w-20 h-20 mx-auto' />
+                    <p className='text-xl font-medium text-center uppercase mt-3'>Javascript</p>
+                </div> 
 
-       
-        </div>
-        
+                <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md p-12'>
+                    <FaReact className='w-20 h-20 mx-auto' />
+                    <p className='text-xl font-medium text-center uppercase mt-3'>React</p>
+                </div> 
 
-           
+                <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md p-12'>
+                    <SiTailwindcss className='w-20 h-20 mx-auto' />
+                    <p className='text-xl font-medium text-center uppercase mt-3'>Tailwind</p>
+                </div> 
+
+                <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md p-12'>
+                    <FaGithub className='w-20 h-20 mx-auto' />
+                    <p className='text-xl font-medium text-center uppercase mt-3'>Github</p>
+                </div> 
+
+            </div>     
     </div>
   )
 }
