@@ -6,7 +6,7 @@ import {faFacebook, faInstagram,faGithub,faLinkedin} from '@fortawesome/free-bra
 const Hero = () => {
   return (
     
-    <div className='w-full bg-amber-400 py-11 px-4'>
+    <div className='w-full bg-amber-400 py-11 px-6'>
       <div className='max-w-[1240px] mx-auto grid sm:grid-cols-2'>
         <div className='my-auto'>
           <p className='uppercase'>Mama mo build</p>
@@ -16,7 +16,7 @@ const Hero = () => {
           <button className='border border-amber-500 font-medium py-2 px-4 mx-2 hover:bg-white'>Resume</button>
           <div>
             <FontAwesomeIcon className='text-xl mt-1' icon={faFacebook}/>
-            <FontAwesomeIcon className='text-xl mt-1 mx-3' icon={faInstagram}/>
+            <FontAwesomeIcon className='text-xl mt-1 ml-3.5 mr-2' icon={faInstagram}/>
             <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faGithub}/>
             <FontAwesomeIcon className='text-xl mt-1 mx-2' icon={faLinkedin}/>
           </div>
