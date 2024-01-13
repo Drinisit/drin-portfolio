@@ -12,32 +12,32 @@ const Skill = () => {
                 </div>
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:p-12'>
                         <FaHtml5 size={80} className='mx-auto xxs:w-10 xxs:-mt-2' />
-                        <p className='font-medium text-center uppercase  mt-3 xxs:text-sm xxs:-mt-2 md:text-xl'>Html</p>
+                        <p className='font-medium text-center uppercase  mt-3 xxs:text-sm xxs:-mt-2 sm:mt-1 md:text-xl'>Html</p>
                     </div> 
 
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:p-12'>
                         <FaCss3Alt size={80} className='mx-auto xxs:w-10 xxs:-mt-2' />
-                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 md:text-xl'>Css</p>
+                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 sm:mt-1 md:text-xl'>Css</p>
                     </div> 
                     
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:p-12'>
                         <DiJavascript size={80} className='mx-auto xxs:w-14 xxs:-mt-2' />
-                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 md:text-xl'>Javascript</p>
+                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 sm:mt-1 md:text-xl'>Javascript</p>
                     </div> 
 
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:p-12'>
                         <FaReact size={80} className='mx-auto xxs:w-10 xxs:-mt-2' />
-                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 md:text-xl'>React</p>
+                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 sm:mt-1 md:text-xl'>React</p>
                     </div> 
 
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:p-12'>
                         <SiTailwindcss size={80} className='mx-auto xxs:w-10 xxs:-mt-2' />
-                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 md:text-xl'>Tailwind</p>
+                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 sm:mt-1 md:text-xl'>Tailwind</p>
                     </div> 
 
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:p-12'>
                         <FaGithub size={80} className='mx-auto xxs:w-10 xxs:-mt-2' />
-                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 md:text-xl'>Github</p>
+                        <p className='font-medium text-center uppercase mt-3 xxs:text-sm xxs:-mt-2 sm:mt-1 md:text-xl'>Github</p>
                     </div> 
 
             </div>     
