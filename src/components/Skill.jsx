@@ -6,7 +6,7 @@ import { SiTailwindcss } from "react-icons/si"
 const Skill = () => {
   return (
     <div className='w-full bg-gray-200 py-16 px-6'>
-            <div className='max-w-[1240px] mx-auto grid xs:grid-cols-2 md:grid-cols-3 xxs:gap-3 xs:gap-5 md:gap-8'>
+            <div className='max-w-[1240px] mx-auto grid xxs:grid-cols-2 md:grid-cols-3 xxs:gap-3 xs:gap-5 md:gap-8'>
                 <div className='w-full flex flex-col xxs:col-span-2  md:col-span-3'>
                     <h1 className='font-bold text-center uppercase sm:text-xl md:text-3xl'>Skills</h1>
                 </div>
