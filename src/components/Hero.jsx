@@ -6,7 +6,7 @@ import {faFacebook, faInstagram,faGithub,faLinkedin} from '@fortawesome/free-bra
 const Hero = () => {
   return (
     
-    <div className='w-full bg-amber-400 py-11 px-6'>
+    <div className='w-ful py-11 px-6'>
       <div className='max-w-[1240px] mx-auto grid sm:grid-cols-2'>
         <div className='my-auto'>
           <p className='uppercase'>Mama mo build</p>
