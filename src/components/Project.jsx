@@ -7,34 +7,43 @@ import Img4 from '../assets/shoetha.jpg'
 const Project = () => {
   return (
     <div className='w-full py-11 px-4'>
-        <div className='max-w-[1240px] mx-auto grid gap-4 grid-cols-4'>
+        <div className='max-w-[1240px] mx-auto grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
             <div className='w-full flex flex-col col-span-4'>
                 <h1 className='text-3xl font-bold uppercase text-center'>Project</h1>
             </div>
             
 
-            <div>
-                <img src={Img1} alt="" />
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+                <img className='rounded-t-lg' src={Img1} alt="" />
+                <div className='p-4'>
+                  <h2 className='text-2x font-bold text-center'>L-NU Website</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                </div>
             </div>
 
-            <div>
-                <img src={Img2} alt="" />
-                <h2>Title</h2>
+            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+              <img className='rounded-t-lg' src={Img2} alt="" />
+              <div className='p-4'>
+                <h2 className='text-2x font-bold text-center'>Pizzarap</h2>
                 <p>Iure ratione, iusto ipsum deserunt nulla id repellendus vitae dolorum eos suscipit fugiat veniam ullam.</p>
+              </div>
             </div>
 
-            <div>
-                <img src={Img3} alt="" />
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+                <img className='rounded-t-lg' src={Img3} alt="" />
+                <div className='p-4'>
+                  <h2 className='text-2x font-bold text-center'>ManhwaGG</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              
             </div>
 
-            <div>
-                <img src={Img4} alt="" />
-                <h2>Title</h2>
+            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+                <img className='rounded-t-lg' src={Img4} alt="" />
+                <div className='p-4'>
+                <h2  className='text-2x font-bold text-center'>Shoetah</h2>
                 <p>Hic unde amet nisi nobis enim deleniti at vero reprehenderit culpa voluptatum dolor nemo nam fuga eum.</p>
+                </div>
             </div>
 
         </div>
