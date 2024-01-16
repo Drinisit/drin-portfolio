@@ -7,8 +7,8 @@ import Img4 from '../assets/shoetha.jpg'
 const Project = () => {
   return (
     <div className='w-full py-11 px-4'>
-        <div className='max-w-[1240px] mx-auto grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
-            <div className='w-full flex flex-col col-span-4'>
+        <div className='max-w-[1240px] mx-auto grid gap-4 xxs:grid-cols-2 lg:grid-cols-4'>
+            <div className='w-full flex flex-col xxs:grid-cols-2 lg:col-span-4'>
                 <h1 className='text-3xl font-bold uppercase text-center'>Project</h1>
             </div>
             
@@ -35,7 +35,6 @@ const Project = () => {
                   <h2 className='text-2x font-bold text-center'>ManhwaGG</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-              
             </div>
 
             <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
