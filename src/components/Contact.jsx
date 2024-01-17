@@ -4,14 +4,26 @@ const Contact = () => {
   return (
     <div className='w-full py-11 xxs:py-11 xs:px-20 md:py-16 px-12'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2'>
-            <div className='p'>
-                <h1>Contact Me</h1>
+            <div className='border border-amber-500 rounded-md p-4 shadow-lg'>
+                <h1 className='text-xl uppercase font-bold mb-2'>Contact Me</h1>
                 
                 <form action="#">
                     <div className='grid grid-cols-2 gap-4'>
                         <input className='border border-amber-500 py-1 px-2' type="text" placeholder='Firstname' />
                         <input className='border border-amber-500 py-1 px-2' type="text" placeholder='Lastame' />
                     </div>
+
+                    <div className='mt-2'>
+                        <input className='border border-amber-500 w-full py-1 px-2' type="text" placeholder='Email'/>
+                    </div>
+                    <div className='mt-2'>
+                        <textarea className='border border-amber-500 w-full py-1 px-2' type="text" placeholder='Leave your message here.' cols="20" rows="7" />
+                    </div>
+                    <div className='mt-1'>
+                        <button className='w-full bg-amber-500 rounded-md py-1'>Send</button>
+                    </div>
+
+                    
                 </form>
             </div>
         </div>
