@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drin-portfolio/static/css/main.3f457916.css",
-    "main.js": "/drin-portfolio/static/js/main.57975cf7.js",
+    "main.js": "/drin-portfolio/static/js/main.05fdf4bf.js",
     "static/media/pizzasap.jpg": "/drin-portfolio/static/media/pizzasap.ad847f28dd2d64647663.jpg",
     "static/media/lnu-lib.jpg": "/drin-portfolio/static/media/lnu-lib.3deb3fe2042afa320a09.jpg",
     "static/media/manhwasite.jpg": "/drin-portfolio/static/media/manhwasite.512f72077817a7d754b2.jpg",
@@ -9,10 +9,10 @@
     "static/media/drin-img.png": "/drin-portfolio/static/media/drin-img.a499b7ed297956922371.png",
     "index.html": "/drin-portfolio/index.html",
     "main.3f457916.css.map": "/drin-portfolio/static/css/main.3f457916.css.map",
-    "main.57975cf7.js.map": "/drin-portfolio/static/js/main.57975cf7.js.map"
+    "main.05fdf4bf.js.map": "/drin-portfolio/static/js/main.05fdf4bf.js.map"
   },
   "entrypoints": [
     "static/css/main.3f457916.css",
-    "static/js/main.57975cf7.js"
+    "static/js/main.05fdf4bf.js"
   ]
 }
