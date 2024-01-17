@@ -25,7 +25,7 @@ const Project = () => {
               <img className='rounded-t-lg' src={Img2} alt="" />
               <div className='p-4'>
                 <h2 className='text-2x font-bold text-center'>Pizzarap</h2>
-                <p>Iure ratione, iusto ipsum deserunt nulla id repellendus vitae dolorum eos suscipit fugiat veniam ullam.</p>
+                <p>Iure ratione, iusto ipsum deserunt nulla id repellendus vitae.</p>
               </div>
             </div>
 
@@ -41,7 +41,7 @@ const Project = () => {
                 <img className='rounded-t-lg' src={Img4} alt="" />
                 <div className='p-4'>
                 <h2  className='text-2x font-bold text-center'>Shoetah</h2>
-                <p>Hic unde amet nisi nobis enim deleniti at vero reprehenderit culpa voluptatum dolor nemo nam fuga eum.</p>
+                <p>Hic unde amet nisi nobis enim deleniti at vero reprehenderit.</p>
                 </div>
             </div>
 
