@@ -3,7 +3,7 @@ import Me from '../assets/drin-img.png'
 
 const About = () => {
   return (
-    <div className='w-full bg-gray-100 py-11 px-6'>
+    <div className='w-full py-11 px-6'>
         <div className='max-w-[1240px] mx-auto grid gap-4 sm:grid-cols-2'>
             <div className='hidden sm:block'>
                 <img className='p-3 items-center mx-auto' src={Me} alt="" />

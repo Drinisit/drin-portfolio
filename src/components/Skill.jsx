@@ -5,10 +5,10 @@ import { SiTailwindcss } from "react-icons/si"
 
 const Skill = () => {
   return (
-    <div className='w-full bg-gray-100  xxs:py-11 xs:px-20 md:py-16 px-12'>
+    <div className='w-full xxs:py-11 xs:px-20 md:py-16 px-12'>
             <div className='max-w-[1240px] mx-auto grid gap-4 xxs:grid-cols-2 md:grid-cols-3 md:gap-6 lg:px-32'>
                 <div className='w-full flex flex-col xxs:col-span-2  md:col-span-3'>
-                    <h1 className='font-bold text-center uppercase sm:text-xl md:text-3xl'>Skills</h1>
+                    <h1 className='font-bold text-center uppercase sm:text-xl md:text-3xl md:pb-8'>Skills</h1>
                 </div>
                     <div className='w-full shadow-xl flex flex-col border border-amber-500 rounded-md xxs:p-3 md:px-12'>
                         <FaHtml5 size={80} className='mx-auto xxs:w-10 xxs:-mt-2' />

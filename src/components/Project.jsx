@@ -6,14 +6,14 @@ import Img4 from '../assets/shoetha.jpg'
 
 const Project = () => {
   return (
-    <div className='w-full py-11 xxs:py-11 xs:px-20 md:py-16 px-12'>
+    <div className='w-full xxs:py-11 xs:px-20 md:py-16 px-12'>
         <div className='max-w-[1240px] mx-auto grid gap-4 xxs:grid-cols-2 lg:grid-cols-4'>
             <div className='w-full flex flex-col xxs:col-span-2 lg:col-span-4'>
-                <h1 className='xxs:text-md lg:text-3xl font-bold uppercase text-center'>Project</h1>
+                <h1 className='xxs:text-md lg:text-3xl md:pb-8 font-bold uppercase text-center'>Project</h1>
             </div>
             
 
-            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+            <div className='bg-gray-100 rounded-lg shadow-lg flex flex-col mt-3'>
                 <img className='rounded-t-lg' src={Img1} alt="" />
                 <div className='p-4'>
                   <h2 className='text-2x font-bold text-center'>L-NU Website</h2>
@@ -21,7 +21,7 @@ const Project = () => {
                 </div>
             </div>
 
-            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+            <div className='bg-gray-100 rounded-lg shadow-lg flex flex-col mt-3'>
               <img className='rounded-t-lg' src={Img2} alt="" />
               <div className='p-4'>
                 <h2 className='text-2x font-bold text-center'>Pizzarap</h2>
@@ -29,7 +29,7 @@ const Project = () => {
               </div>
             </div>
 
-            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+            <div className='bg-gray-100 rounded-lg shadow-lg flex flex-col mt-3'>
                 <img className='rounded-t-lg' src={Img3} alt="" />
                 <div className='p-4'>
                   <h2 className='text-2x font-bold text-center'>ManhwaGG</h2>
@@ -37,7 +37,7 @@ const Project = () => {
                 </div>
             </div>
 
-            <div className='bg-amber-500 rounded-lg shadow-lg flex flex-col mt-3'>
+            <div className='bg-gray-100 rounded-lg shadow-lg flex flex-col mt-3'>
                 <img className='rounded-t-lg' src={Img4} alt="" />
                 <div className='p-4'>
                 <h2  className='text-2x font-bold text-center'>Shoetah</h2>
