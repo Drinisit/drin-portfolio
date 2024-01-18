@@ -5,6 +5,7 @@ import Skill from './components/Skill.jsx'
 import Project from './components/Project.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Project />
       <About />
       <Contact />
-
+      <Footer />
     </div>
   );
 }
