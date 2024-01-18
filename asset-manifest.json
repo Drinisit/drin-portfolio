@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/drin-portfolio/static/css/main.93a806a2.css",
-    "main.js": "/drin-portfolio/static/js/main.24695a49.js",
+    "main.css": "/drin-portfolio/static/css/main.17b834af.css",
+    "main.js": "/drin-portfolio/static/js/main.6046dc4e.js",
     "static/media/pizzasap.jpg": "/drin-portfolio/static/media/pizzasap.ad847f28dd2d64647663.jpg",
     "static/media/lnu-lib.jpg": "/drin-portfolio/static/media/lnu-lib.3deb3fe2042afa320a09.jpg",
     "static/media/manhwasite.jpg": "/drin-portfolio/static/media/manhwasite.512f72077817a7d754b2.jpg",
     "static/media/shoetha.jpg": "/drin-portfolio/static/media/shoetha.3a59608f3ce75d295cbe.jpg",
     "static/media/drin-img.png": "/drin-portfolio/static/media/drin-img.a499b7ed297956922371.png",
     "index.html": "/drin-portfolio/index.html",
-    "main.93a806a2.css.map": "/drin-portfolio/static/css/main.93a806a2.css.map",
-    "main.24695a49.js.map": "/drin-portfolio/static/js/main.24695a49.js.map"
+    "main.17b834af.css.map": "/drin-portfolio/static/css/main.17b834af.css.map",
+    "main.6046dc4e.js.map": "/drin-portfolio/static/js/main.6046dc4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.93a806a2.css",
-    "static/js/main.24695a49.js"
+    "static/css/main.17b834af.css",
+    "static/js/main.6046dc4e.js"
   ]
 }
