@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     
     <div className='w-ful py-11 px-6'>
-      <div className='max-w-[1240px] mx-auto grid sm:grid-cols-2'>
+      <div className='max-w-[1240px] mx-auto grid gap-4 sm:grid-cols-2'>
         <div className='my-auto'>
           <p className='uppercase'>Mama mo build</p>
           <h1 className='text-3xl font-bold '>Hi, I'm Aldrin Isit</h1>

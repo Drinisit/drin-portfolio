@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='w-full py-11 xxs:py-11 xs:px-20 md:py-16 px-12'>
-        <div className='max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2'>
+        <div className='max-w-[1240px] mx-auto grid gap-4 grid-cols-1 md:grid-cols-2'>
             <div className='border border-amber-500 rounded-md p-4 shadow-lg'>
                 <h1 className='text-xl uppercase font-bold mb-2'>Contact Me</h1>
                 
@@ -25,6 +25,17 @@ const Contact = () => {
 
                     
                 </form>
+            </div>
+
+            <div className='p-4'>
+                <h1 className='text-xl font-bold uppercase'>Get in touch</h1>
+
+                <p className='mt-2'>Aldrin Jay Isit is a driven individual with a strong interest in web development. With a focus on front-end development, Aldrin Jay is etnthusiastic about creating visually appealing and user-friendly websites, continually honing his skills in this </p>
+
+                <p className='mt-2'>I'm from Calasiao, Pangasinan</p>
+
+                <p className='mt-2'>Email me at aldrinisit3196@gmail.com</p>
+
             </div>
         </div>
     </div>
